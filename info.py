@@ -46,9 +46,9 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # LOG CHANNELS *
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002289024376'))
-LAZY_GROUP_LOGS = int(environ.get('LAZY_GROUP_LOGS', 0))
+LAZY_GROUP_LOGS = int(environ.get('LAZY_GROUP_LOGS', '-1002289024376'))
 REQ_CHANNEL = int(environ.get('REQ_CHANNEL', '-1002289024376'))
-PRIME_MEMBERS_LOGS = int(environ.get('PRIME_MEMBERS_LOGS'))
+PRIME_MEMBERS_LOGS = int(environ.get('PRIME_MEMBERS_LOGS', '-1002289024376'))
 
 # PREMIUM ACCESS *
 lazydownloaders = [int(lazydownloaders) if id_pattern.search(lazydownloaders) else lazydownloaders for lazydownloaders in environ.get('PRIME_DOWNLOADERS', '').split()]
@@ -63,7 +63,7 @@ UPI_ID = environ.get('UPI_ID', '') #enter your upi id here - grab it from your o
 # Others
 TUTORIAL = environ.get('TUTORIAL', '') # Tutorial video link for opening shortlink website 
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'RMSupportGroup')
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'RMSupportGroups')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
 IMDB = is_enabled((environ.get('IMDB', "True")), True)
 SINGLE_BUTTON = is_enabled((environ.get('SINGLE_BUTTON', "False")), False)
