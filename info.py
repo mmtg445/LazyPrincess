@@ -150,7 +150,7 @@ DEF_WATER_MARK_FILE = ""
 LOGGER = logging
 
 # Adding Language Feature : 
-LANGUAGES = ["hindi", "hin", ""Bangla, "ben", "english", "eng", "korean", "kor", "urdu", "urd","chinese","chin","tamil", "tam", "malayalam", "mal",  "telugu", "tel", "kannada", "kan"]
+LANGUAGES = ["hindi", "hin", "Bangla", "ben", "english", "eng", "korean", "kor", "urdu", "urd","chinese","chin","tamil", "tam", "malayalam", "mal",  "telugu", "tel", "kannada", "kan"]
 SEASONS = ["season 1" , "season 2" , "season 3" , "season 4", "season 5" , "season 6" , "season 7" , "season 8" , "season 9" , "season 10"]
 QUALITIES = ["360P", "", "480P", "", "720P", "", "1080P", "", "1440P", "", "2160P", ""]
 
